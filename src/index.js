@@ -1,3 +1,20 @@
+/*
+INSTRUCCIONS
+
+-Clona el backend i inicialitza https://github.com/marcusfifth/spring-boot-spring-security-jwt-authentication/tree/main
+-Crea un usuari a la base de dades (contrasenya: 1234 >> $2a$10$ai2zjrpYE0atLI8MyJ1YdOlKB9IdSqzEuozQZ2Wzpwo7.qk/vug6q)
+-Inicialitza la base de dades
+-Crea un arxiu .env a api-riot root i copia aixo: 
+LOL_KEY = la teva key de la api de riot
+LOL_BASE_URL = https://euw1.api.riotgames.com
+-Inicialitza api-riot >> node src/index.js
+-Inicialitza l'app react i fes login.
+
+
+
+*/
+
+
 const express = require("express");
 const {json} = require("express");
 require("dotenv").config();
